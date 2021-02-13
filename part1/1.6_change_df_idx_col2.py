@@ -11,4 +11,5 @@ print(df)
 print('\n')
 
 # 변경
-df.rename(columns=)
+df.rename(columns={'나이':'age','성별':'sex','학교':'univ'}, inplace=True)
+print(df)
